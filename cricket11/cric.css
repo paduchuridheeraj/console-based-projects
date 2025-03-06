@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #cricket-form {
+    width: 28%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    padding-top: 30px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(233, 238, 235);
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+  }
+
+  select {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color: orange;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgb(227, 178, 86);
+  }
+
+  .bg_im{
+    background-image: url(bg_img.jpg);
+    height: 100vh;
+    width: 100vw;
+  }
+
+  h1{
+    text-align: center;
+    color:rgb(182, 154, 12);
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
